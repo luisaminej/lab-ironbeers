@@ -1,0 +1,25 @@
+
+  
+
+   {{#each responseFromAPI}}
+
+  <div class="col-md-4">
+  <div class="card">
+    <img
+      class="card-img-top" src="{{image_url}}" alt="Beer"/>
+    <div class="card-body">
+      
+      <h2 class="card-title">{{name}}</h2>
+      <h3>{{description}}</h3>
+      <h4>{{tagline}}</h4>
+      <h5>{{food_pairing}}</h5>
+      <h6>{{brewers_tips}}</h6>
+
+    </div>
+  </div>
+
+
+   
+    {{/each}}
+
+
